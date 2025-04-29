@@ -26,10 +26,8 @@ Yapay zekanın öncül promptu aşağıdaki davranışları temel alır:
 
 ---
 
-## 🛠️ Kurulum
+## 🚀 Yayın Adresi (Live Demo)
 
-```bash
-git clone https://github.com/TrKnG/aiHelper.git
-cd aiHelper
-npm install
-npm run dev
+👉 [https://aihelper-57fbd.web.app](https://aihelper-57fbd.web.app)
+
+---

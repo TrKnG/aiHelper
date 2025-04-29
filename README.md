@@ -1,29 +1,35 @@
-# aiHelper
+# 🤖 aiHelper
 
-This template should help get you started developing with Vue 3 in Vite.
+**aiHelper**, Flowise kullanılarak geliştirilen, kullanıcı dostu bir yapay zeka asistanı arayüzüdür. Web sayfası üzerinden erişilen bu asistan; yazılım geliştirme, Excel işlemleri, içerik üretimi ve daha birçok alanda kullanıcılara yardımcı olmayı amaçlar.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Özellikler
 
-## Customize configuration
+- Yapay zeka sohbet arayüzü (Flowise ile embed)
+- Mobil uyumlu ve modern tasarım
+- Kullanıcı dostu, sade bir arayüz
+- Kullanıcıya özel yetenekli bir yardımcı asistan
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🧠 Asistanın Yetenekleri ve Prensipleri
 
-```sh
+Yapay zekanın öncül promptu aşağıdaki davranışları temel alır:
+
+- **Çok yönlü ve yardımsever**: Excel, yazılım, içerik üretimi ve araştırma konularında destek sağlar.
+- **Proaktif ve çözüm odaklı**: Karmaşık işleri adım adım planlayarak ilerler.
+- **Anlamaya öncelik verir**: Eksik bilgi varsa kibarca tamamlanmasını ister.
+- **Modern ve pratik kodlar sunar**: Özellikle JavaScript, React, Vue, Python gibi teknolojilerde.
+- **Açıklayıcıdır**: Kullanıcının seviyesine göre detay verir, gerektiğinde derinleşir.
+- **Ofis işleri desteği**: E-posta, dilekçe, rapor, CV gibi doküman işlerinde yardımcı olur.
+
+---
+
+## 🛠️ Kurulum
+
+```bash
+git clone https://github.com/TrKnG/aiHelper.git
+cd aiHelper
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```

@@ -164,4 +164,55 @@ img {
   border: none;
   background: #fff;
 }
+@media (max-width: 600px) {
+  .content {
+    max-width: 98vw;
+    padding: 0 8px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+
+  .chat-button {
+    width: 48px;
+    height: 48px;
+    right: 12px;
+    bottom: 12px;
+  }
+  .chat-button img {
+    width: 28px;
+    height: 28px;
+    margin-right: 3px; 
+    margin-top: 15px; 
+  }
+
+  .chat-modal-content {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .chat-header {
+    height: 44px;
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .close-btn {
+    font-size: 1.5rem;
+  }
+}
 </style>

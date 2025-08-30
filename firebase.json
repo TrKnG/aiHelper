@@ -6,6 +6,26 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "headers": [
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Permissions-Policy",
+            "value": "microphone=*"
+          }
+        ]
+      },
+      {
+        "source": "/*",
+        "headers": [
+          {
+            "key": "Permissions-Policy",
+            "value": "microphone=*"
+          }
+        ]
+      }
+    ],
     "rewrites": [
       {
         "source": "**",
